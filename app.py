@@ -4,8 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # se lee la data
-car_data = pd.read_csv(
-    r"/mnt/c/Users/YairE/Desktop/ACAB/Proyectos/DataScience/Proyectos/Proyecto_sprint_7/SPRINT-7-herramientas-de-software-Yair-Bouchan--1/vehicles_us.csv")
+car_data = pd.read_csv(r"vehicles_us.csv")
 
 # agregamos titulo
 st.header('Car Data')
